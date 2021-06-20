@@ -1,0 +1,14 @@
+-
+    name: 'Install vim and zip on the servers'
+    hosts: servers
+    tasks:
+        -
+            name: 'install vim'
+            package:
+                name: vim
+                state: present
+        -
+            name: 'install zip'
+            package:
+                name: zip
+                state: present

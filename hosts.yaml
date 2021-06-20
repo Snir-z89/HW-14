@@ -1,0 +1,4 @@
+# Inventory File
+
+[servers]
+ansible_host=localhost
